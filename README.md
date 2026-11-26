@@ -15,6 +15,10 @@ job title to `/output/entry.txt`:
 
 > Head of Forgetting Why I Entered This Room
 
+Reviser: `main.py` now also validates the entry before writing (single line,
+no newline, sha256 `058ab0950ae4072db5c7a8b0c64c30126f6e85a97d4fd4d5a7ff8d93e6690e9d`,
+42 bytes). Entry text unchanged.
+
 ## Run
 
 ```sh
